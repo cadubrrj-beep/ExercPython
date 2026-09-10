@@ -3,11 +3,13 @@
 #Exercício 5
 
 nomeVendedor = input("Informe o nome do vendedor: ");
-numeroVendas = int(input("Informe a quantidade de produtos vendidos: "));
-valorTotalVendas = int(input("Informe o total de vendas: "));
-comissaoFixa = numeroVendas * 150;
-comissaoVariavel = (comissaoFixa * 3) / 100;
+qtdProdutos = int(input("Informe a quantidade de produtos vendidos: "));
+valorTotal = int(input("Informe o valor total de vendas: R$ "));
 
-salarioTotal = (1800 + comissaoFixa + comissaoVariavel);
+comissaoVariavel = valorTotal * 3 / 100;
+comissaoFixa = 150 * qtdProdutos;
+valorSalario = 1800;
 
-print(f"O total do {nomeVendedor} foi de : R$ {salarioTotal}");
+salarioTotal = valorSalario + comissaoVariavel + comissaoFixa;
+
+print(f"O total do {nomeVendedor} foi de: R$ {salarioTotal}");

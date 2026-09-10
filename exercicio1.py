@@ -2,6 +2,5 @@
 
 #Exercício 1
 
-nome = input("Digite o seu nome: ");
-#print(nome);
-print("Olá "+nome+"");
+nome = input("Digite o seu nome: ")
+print("Olá " +nome)

@@ -7,3 +7,4 @@ altura = float(input("Informe a sua altura "))
 imc = peso / (altura * altura)
 print(f"O seu IMC é: {imc}")
 
+

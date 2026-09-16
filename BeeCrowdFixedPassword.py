@@ -13,7 +13,7 @@ For each number read print a message corresponding to the description of the pro
 password = int(input())
 correctPassword = 2002
 
-while password != correctPassword:
+while password != correctPassword
     print("Senha Invalida")
     password = int(input())
 

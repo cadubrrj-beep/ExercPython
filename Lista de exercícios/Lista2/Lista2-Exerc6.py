@@ -13,11 +13,10 @@ valVendas = int(input("Informe o valor de vendas. R$: "))
 comissaoBase = int()
 comissaoExtra = int()
 
-if valVendas > 5000:
-    comissaoExtra = (valVendas - 5000) * 0.07
-    comissaoBase = 5000 * 0.05
-
 if valVendas <= 5000:
+    comissaoBase = 5000 * 0.05
+else:
+    comissaoExtra = (valVendas - 5000) * 0.07
     comissaoBase = 5000 * 0.05
 
 somaComissao = comissaoBase + comissaoExtra

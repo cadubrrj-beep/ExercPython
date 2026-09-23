@@ -10,7 +10,7 @@ valor3 = int(input("Digite o terceiro valor inteiro: "))
 
 if valor1 == valor2 == valor3:
     print("Os números são iguais")
-elif valor1 < valor2 and valor1 < valor2:
+elif valor1 < valor2 and valor1 < valor3:
     print("Número 1 é menor que os números 2 e 3")
 elif valor2 < valor1 and valor2 < valor3:
     print("Número 2 é menor que os números 1 e 3")

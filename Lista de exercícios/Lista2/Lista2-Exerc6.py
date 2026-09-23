@@ -10,14 +10,15 @@ total do vendedor e a comissão que ele irá receber.
 
 salFixo = int(input("Informe o salário fixo do vendedor. R$: "))
 valVendas = int(input("Informe o valor de vendas. R$: "))
+valorCorte = int(5000)
 comissaoBase = int()
 comissaoExtra = int()
 
-if valVendas <= 5000:
-    comissaoBase = 5000 * 0.05
+if valVendas <= valorCorte:
+    comissaoBase = valorCorte * 0.05
 else:
-    comissaoExtra = (valVendas - 5000) * 0.07
-    comissaoBase = 5000 * 0.05
+    comissaoExtra = (valVendas - valorCorte) * 0.07
+    comissaoBase = valorCorte * 0.05
 
 somaComissao = comissaoBase + comissaoExtra
 salFinal = (salFixo + somaComissao)

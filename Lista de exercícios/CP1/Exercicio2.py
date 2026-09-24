@@ -1,9 +1,20 @@
 '''
 Problema
 
+Escreva um programa que receba duas notas informadas pelo usuário e calcule a sua média aritmética simples.
+O sistema deve exibir a mensagem "Média [valor] - Reprovado" se o resultado for inferior a 5,0, ou "Média
+[valor] - Aprovado" caso seja igual ou superior a esse valor. (1 ponto)
 
+Output esperado
+Nota 1: 6.0
+Nota 2: 6.0
 
+Média 6 - Aprovado
 
+Nota 1: 3.0
+Nota 2: 4.0
+
+Média 3.5 - Reprovado
 '''
 
 

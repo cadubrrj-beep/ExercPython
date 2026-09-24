@@ -1,8 +1,15 @@
 '''
 Problema
 
+Considerando os cálculos (INSS e IR) dos últimos dois exercícios, faça
+um programa que leia um salário bruto, calcule e exiba os dois impostos
+e calcule e exiba o salário líquido do CLT (1 ponto)
 
-
+Output esperado
+Salário: R$ 4000
+INSS R$ 368,60
+IR R$ 205,8
+Salário Líquido R$ 3.425,6
 
 '''
 

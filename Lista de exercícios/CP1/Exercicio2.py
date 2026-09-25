@@ -38,3 +38,9 @@ if media <= 5:
 else:
     print(f"Média {media} - Aprovado")
 '''
+
+'''
+Correção
+No geral correto, mas o ideal era que fosse < 5 e não <= 5
+Os resultados de output dão certo, mas a regra poderia indicar como um erro ao digitar um 5 na nota
+'''

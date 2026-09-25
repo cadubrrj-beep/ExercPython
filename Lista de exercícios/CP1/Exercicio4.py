@@ -33,11 +33,9 @@ INSS: R$121.57
 
 
 
-
+'''
 # Código entregue
 salario = float(input("Salário: R$ "))
-
-
 
 if salario <= 1621:
     inss = (salario * 0.075)
@@ -50,10 +48,22 @@ elif salario <= 4354.27 and salario > 2902.85:
     print(f"INSS = {inss:.2f}")
 else:
     print("INSS = ", ((salario * 0.14) - 198.49))
+'''
+
+'''
+Correção
+salario = float(input(Salário: R$"))
+
+if salario<=1621:
+    inss = salario*0.075
+elif salario<=
+
+CONTINUAR PREENCHIMENTO DO PRINT
 
 
-#salario <= 8475.55 and salario > 4354.27:
 
 
+
+'''
 
 

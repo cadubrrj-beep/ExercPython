@@ -4,7 +4,7 @@ Problema
 Considere a tabela para o cálculo do Imposto de Renda (IR-2025) sobre
 o salário:
 
-De          Até
+De          Até       Aliquota  Dedução
 0,00      | 2.428,80 | 0,00%  | 0,00
 2.428,81  | 2.826,65 | 7,50%  | 182,16
 2.826,66  | 3.751,05 | 15,00% | 394,16
@@ -54,5 +54,10 @@ else:
 #salario <= 8475.55 and salario > 4354.27:
 '''
 
+
+'''
+Correção
+CERTO
+'''
 
 

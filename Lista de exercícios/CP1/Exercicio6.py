@@ -60,3 +60,8 @@ else:
 slrLiquido = (salario - inss) - ir
 print(f"Salário Líquido R$ {slrLiquido:.2f}")
 '''
+
+'''
+Correção
+
+'''

@@ -51,19 +51,21 @@ else:
 '''
 
 '''
-Correção
-salario = float(input(Salário: R$"))
+#Correção
+salario = float(input("Salário: R$"))
 
-if salario<=1621:
-    inss = salario*0.075
-elif salario<=
+if salario <= 1621:
+    inss = salario * 0.075
+elif salario<=2902.84:
+    inss = (salario * 0.09) - 24.32
+elif salario <= 4354.27:
+    inss = (salario * 0.12 - 111.40)
+elif salario<=8475.55:
+    inss = (salario * 0.14) - 198.49
+else:
+    inss = (8475.55 * 0.14) - 198.49
 
-CONTINUAR PREENCHIMENTO DO PRINT
-
-
-
-
-
+print(f"INSS R$ {inss:.2f}")
 '''
 
 

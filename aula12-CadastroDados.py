@@ -9,7 +9,7 @@
 while True:
     print("Gerenciar aluno")
     print("1 - Cadastrar")
-    print("2 - Atualizar")
+    print("2 - Consultar")
     print("3 - Atualizar")
     print("4 - Remover")
     print("5 - Listar")

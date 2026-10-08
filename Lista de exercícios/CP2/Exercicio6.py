@@ -6,30 +6,34 @@ while True:
     print("2 - Fechar o Caixa")
 
     quant = 0
-    preco = 0
+    preco = 0.0
 
     precoTotal = 0
 
     opcao = input("Digite uma opção: ")
-    if opcao.isdigit(): #funcao do python para validar se é número
+    if opcao.isdigit():  # funcao do python para validar se é número
         opcao = int(opcao)
         match opcao:
             case 1:
-                quant = input("Digite a quantidade de itens diferentes: ")
-                preco = input("Digite o preço do item R$: ")
-                subTotal = (quant * preco)
+                quant = int(input("Digite a quantidade de itens diferentes: "))
+                preco = float(input("Digite o preço do item R$: "))
+                subTotal = quant * preco
                 if subTotal >= 500:
-                    precoTotal = subTotal * 0.15
+                    precoTotal = subTotal - (subTotal * 0.15)
                 else:
-                    precoTotal = subTotal * 0.05
+                    precoTotal = subTotal * (subTotal * 0.05)
                 print("Subtotal da Venda R$:", subTotal)
-                print("Desconto aplicado R$:", (precoTotal - subTotal))
+                print("Desconto aplicado R$:", (subTotal - precoTotal))
                 print("Total da Venda R$:", precoTotal)
+                precoTotalFinal = precoTotalFinal + precoTotal
             case 2:
                 print("Fechar o caixa")
+                print("Total do dia: ", precoTotalFinal)
                 break
             case _:
                 print("Você digitou uma opção inválida! Tente novamente")
 
     else:
-        print("Digite apenas números. De 1 até 2")
+        print("Digite apenas números. De 0 até 6")
+
+

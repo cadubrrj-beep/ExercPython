@@ -1,8 +1,8 @@
 '''
 Uma loja deseja analisar o perfil de 5 clientes. Crie um algoritmo que
 solicite a idade de cada um desses 5 clientes e, ao final, informe:
-a. b. Quantas pessoas têm 18 anos ou mais.
-Quantas pessoas têm menos de 18 anos.
+a. Quantas pessoas têm 18 anos ou mais.
+b. Quantas pessoas têm menos de 18 anos.
 c. A idade da pessoa mais velha.
 
 Output esperado:

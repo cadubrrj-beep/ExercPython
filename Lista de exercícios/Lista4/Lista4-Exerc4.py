@@ -5,7 +5,8 @@
 
 # Usando While
 
-'''listaPar = []
+'''
+listaPar = []
 listaImpar = []
 
 x = int(input("Digite um número (0 para sair): "))
@@ -28,7 +29,8 @@ if len(listaImpar) > 0:
     mediaImpar = sum(listaImpar) / len(listaImpar)
     print(f"A média dos ímpares é {mediaImpar}")
 else:
-    print("Nenhum número ímpar informado.")'''
+    print("Nenhum número ímpar informado.")
+'''
 
 
 

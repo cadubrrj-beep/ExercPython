@@ -3,12 +3,14 @@
 # digitados.
 
 lista = []
+contador = 0
 
 while True:
     numeros = int(input("Digite um número: "))
     lista.append(numeros)
+    contador += 1
 
     if numeros == 0:
         total = sum(lista)
-        print(total)
+        print(f"A soma dos {contador} números digitados foi: {total}")
         break

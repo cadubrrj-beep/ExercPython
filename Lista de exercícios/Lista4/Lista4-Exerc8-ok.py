@@ -6,7 +6,7 @@ inteiros = 0
 dentro = 0
 fora = 0
 
-while inteiros <= 15:
+while inteiros < 15:
     numero = int(input("Digite um número inteiro: "))
 
     if numero >= 10 and numero <= 50:

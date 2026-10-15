@@ -5,6 +5,7 @@
 x = int(input("Digite o primeiro número: "))
 y = int(input("Digite o segundo número: "))
 
+'''
 while True:
     if x != y:
         soma = x + y
@@ -13,9 +14,14 @@ while True:
     else:
         print("Os números são iguais")
         break
+'''
 
+while x == y:
+    print("Os números são iguais")
+    y = int(input("Digite outro número: "))
 
-
+soma = x + y
+print("A soma é:", soma)
 
 
 

@@ -5,6 +5,6 @@
 salario = int(input("Digite o salário: "))
 reajuste = int(input("Digite o reajuste: "))
 
-salAj = (reajuste / 100)
+ajustado = (reajuste / 100)
 
-print("O salário ajustado ficou em: ",salario + (salario * salAj))
+print("O salário ajustado ficou em: ",salario + (salario * ajustado))
